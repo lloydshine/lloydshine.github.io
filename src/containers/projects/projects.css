@@ -1,0 +1,9 @@
+.projects {
+  background-color: #001220;
+  flex-direction: column;
+  padding: 5rem;
+  color: white;
+}
+.projects h2 {
+  color: #fa7268;
+}

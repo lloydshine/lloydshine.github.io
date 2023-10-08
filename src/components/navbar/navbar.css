@@ -21,6 +21,24 @@
   cursor: pointer;
 }
 
+.pop-links {
+  height: 0px;
+  transition: 0.2s;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+}
+.pop-links a {
+  text-decoration: none;
+  color: black;
+  margin: 0 2rem;
+  transition: 0.2s;
+}
+.pop-links a:hover {
+  color: #c62368;
+  font-size: 1.1rem;
+}
 @media screen and (max-width: 800px) {
   #menu-button {
     display: block;

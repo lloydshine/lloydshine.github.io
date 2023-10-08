@@ -1,0 +1,23 @@
+footer {
+  background-color: #001220;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: unset;
+}
+footer .footer-logo {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+@media screen and (max-width: 500px) {
+  footer {
+    flex-direction: column;
+    padding: 2rem;
+  }
+}

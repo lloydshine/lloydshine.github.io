@@ -5,7 +5,7 @@ import { Navbar } from '../../components';
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id='home'>
       <Navbar />
       <div className="intro">
         <div className="intro-text">
