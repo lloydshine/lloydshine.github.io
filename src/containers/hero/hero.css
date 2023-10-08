@@ -14,7 +14,7 @@
   font-size: 3rem;
 }
 .hero .intro h2 {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 .hero .intro p {
   font-size: 1.3rem;
@@ -36,7 +36,7 @@
 }
 @media screen and (max-width: 800px) {
   .hero .intro {
-    padding: 10rem 5rem;
+    padding: 2rem 5rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;

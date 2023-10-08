@@ -1,6 +1,6 @@
 .about {
   margin: 3rem 0;
-  height: 60vh;
+  height: 75vh;
   background: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.77) 25%,
@@ -22,4 +22,5 @@
   max-width: 50%;
   color: rgba(255, 255, 255, 0.582);
   line-height: 1.5rem;
+  font-size: 1.2rem;
 }
