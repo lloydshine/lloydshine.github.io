@@ -1,5 +1,6 @@
 .hero {
   background: url('../../media/wave.svg') no-repeat center center / cover;
+  overflow: hidden;
 }
 
 .hero .intro {
@@ -29,6 +30,7 @@
   margin-top: 2rem;
   font-size: 1.3rem;
   transition: 0.2s;
+  cursor: pointer;
 }
 .hero .intro button:hover {
   color: #c62368;

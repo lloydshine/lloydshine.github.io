@@ -6,9 +6,10 @@
 }
 .project .title {
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 .project .desc {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: rgba(238, 218, 218, 0.651);
 }
 .project img {
@@ -19,7 +20,8 @@
 .project hr {
   border: none;
   background-color: #fa7268;
-  height: 1rem;
+  height: 10px;
+  width: 20rem;
   border-radius: 30px;
   margin-top: 5rem;
 }

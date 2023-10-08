@@ -14,6 +14,7 @@ export default function Footer() {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#socials">Socials</a>
       </div>
     </footer>
   );

@@ -44,6 +44,7 @@ export default function Navbar() {
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
+          <a href="#socials">Socials</a>
         </div>
       </header>
       <div
@@ -53,6 +54,7 @@ export default function Navbar() {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#socials">Socials</a>
       </div>
     </>
   );

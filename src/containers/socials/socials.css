@@ -1,0 +1,29 @@
+.socials {
+  height: 50vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.socials .social-links svg {
+  margin: 0 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.socials .social-links svg:hover {
+  color: #c62368 !important;
+}
+
+.socials .social-text h2 {
+  font-size: 2rem;
+}
+.socials .social-text p {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.658);
+}
+
+@media screen and (max-width: 780px) {
+  .socials {
+    flex-direction: column;
+    text-align: center;
+  }
+}
