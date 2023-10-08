@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+span {
+  color: #fa7268;
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}

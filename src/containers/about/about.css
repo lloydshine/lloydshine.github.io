@@ -1,0 +1,24 @@
+.about {
+  height: 60vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.77) 25%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    url('../../media/me.jpg') no-repeat top center / cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.about h3 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.about p {
+  max-width: 50%;
+  color: rgba(255, 255, 255, 0.582);
+  line-height: 1.5rem;
+}

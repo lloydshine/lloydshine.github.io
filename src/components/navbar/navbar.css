@@ -1,0 +1,31 @@
+.navbar {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: unset;
+  margin: 1.5rem;
+  transition: 0.2s;
+}
+.navbar .nav-links a:hover {
+  color: #c62368;
+}
+
+#menu-button {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  #menu-button {
+    display: block;
+  }
+  .navbar .nav-links {
+    display: none;
+  }
+}

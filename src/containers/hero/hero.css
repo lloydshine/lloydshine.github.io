@@ -1,0 +1,45 @@
+.hero {
+  background: url('../../media/wave.svg') no-repeat center center / cover;
+}
+
+.hero .intro {
+  height: 85vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero .intro h1 {
+  font-size: 3rem;
+}
+.hero .intro h2 {
+  font-size: 1.7rem;
+}
+.hero .intro p {
+  font-size: 1.3rem;
+  color: rgba(238, 218, 218, 0.651);
+}
+.hero .intro button {
+  background: #c62368;
+  border: none;
+  color: white;
+  padding: 0.5rem 2.2rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  transition: 0.2s;
+}
+.hero .intro button:hover {
+  color: #c62368;
+  background-color: white;
+}
+@media screen and (max-width: 800px) {
+  .hero .intro {
+    padding: 10rem 5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5rem;
+  }
+}
