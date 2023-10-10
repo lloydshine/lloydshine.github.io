@@ -8,7 +8,7 @@ export default function Socials() {
     <section className="socials container" id="socials">
       <div className="social-text">
         <h2>Let's Communicate</h2>
-        <p>Communication is the key</p>
+        <p>Mag first move kana!</p>
       </div>
       <div className="social-links">
         <a href="https://facebook.com/Lloyd.Sem" target="_blank">
