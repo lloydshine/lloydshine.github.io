@@ -20,7 +20,15 @@
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.658);
 }
-
+.socials .social-text a button {
+  padding: 1rem;
+  background-color: #c62368;
+  color: white;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
 @media screen and (max-width: 780px) {
   .socials {
     flex-direction: column;
