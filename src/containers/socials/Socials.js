@@ -10,7 +10,7 @@ export default function Socials() {
         <h2>Let's Communicate</h2>
         <p>Mag first move kana!</p>
         <a href="https://ng-el.netlify.app">
-          <button>Send an Annonymous message</button>
+          <button>Send an Annonymous Message</button>
         </a>
       </div>
       <div className="social-links">
